@@ -1,9 +1,9 @@
 <template>
-  <v-content>
+  <v-content >
 <!-- Seccion Slider INICO-->
     <section>
      <Slider style="z-index:1; position:relative;"></Slider>
-     <v-flex md12 style="margin-top:-100px; position:absolute; align-items: flex-end;">
+     <v-flex md="12" style="margin-top:-100px; position:absolute; align-items: flex-end;">
         <v-img
           class="tile_div"
           src="../static/img/btn_suscripcion.png"
@@ -131,8 +131,8 @@
 
 <!-- Seccion Del Cielo a la Tierra INICIO-->
   <section>
-    <v-flex md12>
-      <v-parallax src="/static/img/parallax.jpg" height="800"></v-parallax>
+    <v-flex md12 xs12 sm12>
+      <v-parallax src="/static/img/parallax.png" height="800"></v-parallax>
     </v-flex>
   </section>
 <!-- Seccion Del Cielo a la Tierra FINAL-->
@@ -471,7 +471,7 @@ export default {
   }
   .bg_lecciones_de_amor {
       width: 100%;
-      padding: 7% 0%;
+      padding: 0% 0%;
       display: table;
       margin: 0;
       max-width: 100%;
