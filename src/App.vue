@@ -5,13 +5,13 @@
           <img src="./assets/logo_web.png" alt="Vuetify.js" height="50">
           <v-spacer></v-spacer>
           <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn text>INICIO</v-btn>
-            <v-btn text>COMO SURGIO</v-btn>
-            <v-btn text>LECCIONES DE AMOR</v-btn>
+            <v-btn text to="/">INICIO</v-btn>
+            <v-btn text>COMO SURGIÓ</v-btn>
+            <v-btn text to ="LeccionesDeAmor">LECCIONES DE AMOR</v-btn>
             <v-btn text>LIBRO ON LINE</v-btn>
             <v-btn text>BIOGRAFIA</v-btn>
             <v-btn text>CONTACTOS</v-btn>
-            <v-btn text>DONACIONES</v-btn>
+            <v-btn text to="Donaciones">DONACIONES</v-btn>
             <v-btn icon><v-icon>mdi-cart</v-icon></v-btn>
           </v-toolbar-items>
         </v-app-bar>
