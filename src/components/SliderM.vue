@@ -1,32 +1,32 @@
 <template>
-  <v-carousel :hide-delimiters="true" :show-arrows="false" :cycle="true" :interval="10000" height="100vh">
+  <v-carousel :hide-delimiters="true" :show-arrows="false" :cycle="true" :interval="5000">
     <v-carousel-item
-            src="/static/img/Slider 1.png"
+            src="/static/img/SLIDER 1 RESPONSIVE.jpg"
             reverse-transition="fade-transition"
             transition="fade-transition">
     </v-carousel-item>
     <v-carousel-item
-            src="/static/img/Slider 2.png"
+            src="/static/img/SLIDER 2 RESPONSIVE.jpg"
             reverse-transition="fade-transition"
             transition="fade-transition">
     </v-carousel-item>
     <v-carousel-item
-            src="/static/img/Slider 3.png"
+            src="/static/img/SLIDER 3 RESPONSIVE.jpg"
             reverse-transition="fade-transition"
             transition="fade-transition">
     </v-carousel-item>
     <v-carousel-item
-        src="/static/img/Slider 4.png"
+        src="/static/img/SLIDER 4 RESPONSIVE.jpg"
         reverse-transition="fade-transition"
         transition="fade-transition">
     </v-carousel-item>
     <v-carousel-item
-        src="/static/img/Slider 5.png"
+        src="/static/img/SLIDER 5 RESPONSIVE.jpg"
         reverse-transition="fade-transition"
         transition="fade-transition">
     </v-carousel-item>
     <v-carousel-item
-        src="/static/img/Slider 6.png"
+        src="/static/img/SLIDER 6 RESPONSIVE.jpg"
         reverse-transition="fade-transition"
         transition="fade-transition">
     </v-carousel-item>
@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Slider',
+  name: 'SliderM',
   mounted(){
     console.log('Component mounted.')
   }

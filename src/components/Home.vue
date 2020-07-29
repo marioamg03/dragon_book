@@ -2,8 +2,9 @@
   <v-content >
 <!-- Seccion Slider INICO-->
     <section>
-     <Slider style="z-index:1; position:relative;"></Slider>
-     <v-flex md="12" style="margin-top:-100px; position:absolute; align-items: flex-end;">
+     <Slider style="z-index:1; position:relative;" class="deskContent"></Slider>
+     <SliderM style="z-index:1; position:relative;" class="phoneContent"></SliderM>
+     <v-flex md="12" style="margin-top:-100px; position:absolute; align-items: flex-end;" class="deskContent">
         <v-img
           class="tile_div"
           src="../static/img/btn_suscripcion.png"
@@ -130,51 +131,54 @@
 
 <!-- Seccion Del Cielo a la Tierra INICIO-->
   <section>
-    <v-flex md12 xs12 sm12>
+    <v-flex md12 xs12 sm12 class="deskContent">
       <v-parallax src="/static/img/parallax.png" height="800"></v-parallax>
+    </v-flex>
+    <v-flex md12 xs12 sm12 class="phoneContent">
+      <v-parallax src="/static/img/Parallax Responsive.jpg"></v-parallax>
     </v-flex>
   </section>
 <!-- Seccion Del Cielo a la Tierra FINAL-->
 
-<!-- Seccion Compra libro Online INICIO-->
-  <section>
-      <v-container class="container_buy_title">
-        <v-flex md12 style="height:10vh; width:100vw; padding: 0 0;">
-         <h1 class="title_style_light">- COMPRA DEL LIBRO ONLINE -</h1>
-        </v-flex>
-      </v-container>
-      <v-container>
-        <v-row style="margin-top:50px; margin-bottom:50px;">
-          <v-flex md4>
-            <v-img max-height="400px" contain style="float:right" src="../static/img/book_sample.png"/>
-          </v-flex>
-          <v-flex md4 style="padding-right:50px;">
-            <p align="left" style="font-weight: bold;" class="subtitle_text">IPAD-ITA Y EL DRAGÓN EGO</p>
-            <p align="left" style="font-weight: bold;" class="subtitle_text_grey">Un cuento de realismo mágico en la era cuántica</p>
-            <p align="left" class="regular_text">
-              Adquiere el libro completo de Ipad-ita y el Dragón Ego.
-              Entrarás en un mundo maravilloso y comprenderás 
-              los grandes secretos ocultos por el Dragón Ego, y verás
-              como cambia tu vida, así como cambió la nuestra.
-            </p>
-            <p align="left" class="regular_text">
-              Adquiérelo en formato digital kindle a través de Amazon,
-              con la compra del ejemplar estás donando a una de las
-              fundaciones que apoyamos, regala junto a nosotros
-              unas gotitas de amor que hacen milagros.
-            </p>
-          </v-flex>
-          <v-flex md4>
-            <p align="center" style="font-weight: bold;" class="subtitle_text">Compra Libro  Online IPAD-ITA Y EL DRAGÓN EGO</p>
-            <p align="center" style="font-weight: bold;" class="subtitle_text_amazon">Formato Kindle</p>
-            <p align="center" class="regular_text_amazon">Adquiere el libro completo de Ipad-ita y el Dragon Ego en:</p>
-            <v-img max-height="180px" contain src="../static/img/amazon_logo.png"/>
-            <v-btn color="#982C2C" dark large>Compra Online</v-btn>
-          </v-flex>
-        </v-row>
-      </v-container>
-  </section>
-<!-- Seccion Compra libro Online FINAL-->
+<!-- Seccion Compra libro Online INICIO
+  // <section>
+  //     <v-container class="container_buy_title">
+  //       <v-flex md12 style="height:10vh; width:100vw; padding: 0 0;">
+  //        <h1 class="title_style_light">- COMPRA DEL LIBRO ONLINE -</h1>
+  //       </v-flex>
+  //     </v-container>
+  //     <v-container>
+  //       <v-row style="margin-top:50px; margin-bottom:50px;">
+  //         <v-flex md4>
+  //           <v-img max-height="400px" contain style="float:right" src="../static/img/book_sample.png"/>
+  //         </v-flex>
+  //         <v-flex md4 style="padding-right:50px;">
+  //           <p align="left" style="font-weight: bold;" class="subtitle_text">IPAD-ITA Y EL DRAGÓN EGO</p>
+  //           <p align="left" style="font-weight: bold;" class="subtitle_text_grey">Un cuento de realismo mágico en la era cuántica</p>
+  //           <p align="left" class="regular_text">
+  //             Adquiere el libro completo de Ipad-ita y el Dragón Ego.
+  //             Entrarás en un mundo maravilloso y comprenderás 
+  //             los grandes secretos ocultos por el Dragón Ego, y verás
+  //             como cambia tu vida, así como cambió la nuestra.
+  //           </p>
+  //           <p align="left" class="regular_text">
+  //             Adquiérelo en formato digital kindle a través de Amazon,
+  //             con la compra del ejemplar estás donando a una de las
+  //             fundaciones que apoyamos, regala junto a nosotros
+  //             unas gotitas de amor que hacen milagros.
+  //           </p>
+  //         </v-flex>
+  //         <v-flex md4>
+  //           <p align="center" style="font-weight: bold;" class="subtitle_text">Compra Libro  Online IPAD-ITA Y EL DRAGÓN EGO</p>
+  //           <p align="center" style="font-weight: bold;" class="subtitle_text_amazon">Formato Kindle</p>
+  //           <p align="center" class="regular_text_amazon">Adquiere el libro completo de Ipad-ita y el Dragon Ego en:</p>
+  //           <v-img max-height="180px" contain src="../static/img/amazon_logo.png"/>
+  //           <v-btn color="#982C2C" dark large>Compra Online</v-btn>
+  //         </v-flex>
+  //       </v-row>
+  //     </v-container>
+  // </section>
+    Seccion Compra libro Online FINAL-->
 
 <!-- Seccion Suscripcion INICIO-->
   <section>
@@ -265,7 +269,6 @@
       </v-flex>
     </v-container>
   </section>
-
   <section class="bg_contacto">
       <v-container>
         <v-row style="margin-top:80px; margin-bottom:50px;">
@@ -313,6 +316,7 @@
 
 <script>
 import Slider from './Slider.vue';
+import SliderM from './SliderM.vue';
 
 export default {
   name: 'Home',
@@ -322,12 +326,47 @@ export default {
     }
   },
   components: {
-    Slider
+    Slider,
+    SliderM
   }
 }
 </script>
 
 <style>
+
+@media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .bg_autora {
+      width: 100%;
+      padding: 0 7%;
+      display: table;
+      margin: 0;
+      max-width: 100%;
+      background-image: url( '/static/img/background_autoras.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+    .phoneContent {display:none;}
+}
+
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .bg_autora {
+      width: 100%;
+      padding: 0 7%;
+      display: table;
+      margin: 0;
+      max-width: 100%;
+      background-image: url( '/static/img/Biografia 3.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+    .phoneContent {display:block;}
+}
+
+
   .tile_div {
       display: block;
       float: right;
@@ -347,7 +386,7 @@ export default {
   .title_style_light {
     margin-top: 5vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     color: #FFFFFF;
   }
 
@@ -533,17 +572,6 @@ export default {
       background-image: url( '/static/img/background_suscripcion.png');
       background-repeat: no-repeat;
       background-size: cover;
-  }
-  .bg_autora {
-      width: 100%;
-      padding: 0 7%;
-      display: table;
-      margin: 0;
-      max-width: 100%;
-      background-image: url( '/static/img/background_autoras.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
   }
   .bg_contacto {
       width: 100%;
