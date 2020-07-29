@@ -56,7 +56,7 @@
 
 <!-- Seccion Lecciones De Amor INICIO-->
   <section class="bg_lecciones_de_amor">
-      <v-container class="container_lecciones">
+      <div class="container_lecciones">
         <v-flex md12 style="vertical-align: middle;">
           <h1 class="title_style_black">- LECCIONES DE AMOR -</h1>
 
@@ -125,7 +125,7 @@
             </v-flex>
           </v-row>
         </v-flex>
-      </v-container>
+      </div>
   </section>
 <!-- Seccion Lecciones De Amor FINAL width-->
 
@@ -438,6 +438,7 @@ export default {
     background-size: cover;
     background-color: #EDEDE9;
     opacity:0.8;
+    max-width: 100% !important;
   }
 
   .container_buy_title {
@@ -478,7 +479,6 @@ export default {
       background-image: url( '/static/img/background_lecciones_de_amor.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
   }
   .bg_cielo_tierra {
       width: 100%;
