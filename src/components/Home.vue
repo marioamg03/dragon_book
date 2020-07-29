@@ -24,7 +24,7 @@
   <section class="bg_como_surgio">
       <v-container>
         <v-flex md12 style="calc(height:100vh + 80px)">
-        <h1 class="title_style_black">- COMO SURGIO -</h1>
+        <h1 class="title_style_black">- COMO SURGIÓ -</h1>
           <v-flex md6 style="text-align: justify">
 
             <p class="subtitle_text">Este libro es para ti, padre, madre, joven, maestro:</p>
@@ -36,13 +36,12 @@
             <p class="regular_text">Este libro te brinda las enseñanzas de Ipad-ita, unas sencillas claves que al aplicarlas cada día,
             lograrán que la nueva humanidad, empezando por ti, tus hijos, tus nietos, tus alumnos, puedan
             disfrutar de un mundo más sano, lleno de amor, paz, empatía y así puedas sentir que realmente
-            del cielo a la tierra hay un sólo vuelo.<p>
+            del cielo a la tierra hay un solo vuelo.<p>
 
             <p class="regular_text">El regalo de Ipad-ita para ti es gratis en formato digital. Pero te invitamos a donar una gotita de
-            amor, por medio de la compra del libro en amazon Kindle por un precio muy económico, la
-            compra del libro en físico, o bien, por medio de donación directa, de la cantidad que en tu
-            corazón, estimes conveniente, para apoyar cualquiera de las organizaciones que te proponemos
-            más abajo.<p>
+            amor, por medio de la compra del libro por un precio muy económico, la compra del libro en físico, o bien, por medio de
+            donación directa, de la cantidad que en tu corazón, estimes conveniente, para apoyar cualquiera de las organizaciones que
+            te proponemos más abajo.<p>
 
             <p class="regular_text">El aporte que des en cualquiera de las formas, irá directo a la organización correspondiente y tú
             podrás comprobarlo, contactándote directamente con ellos.<p>
@@ -181,7 +180,7 @@
   <section>
     <v-container class="container_suscripcion">
       <v-flex md12 style="height:10vh; width:100vw; padding: 0 0;">
-        <h1 class="title_style_black">- SUSCRIPCION -</h1>
+        <h1 class="title_style_black">- SUSCRIPCIÓN -</h1>
       </v-flex>
     </v-container>
   </section>
@@ -201,17 +200,17 @@
               y coordinamos el envío del ejemplar.
             </p>
             <p align="left" class="regular_text">
-              El libro se puede adquiere en español y en sueco.
+              El libro se puede adquirir en español y en sueco.
             </p>
           </v-flex>
           <v-flex md6 style="padding-left:50px;">
-            <p align="left" style="font-weight: bold;" class="subtitle_text">Suscribete y descarga gratis fragmentos</p>
-            <p align="left" style="font-weight: bold;" class="subtitle_text">del libro Ipad-ita y El Dragón Ego</p>
-            <p align="left" style="font-weight: bold;" class="subtitle_text_grey">Adquiere el fragmentos del libro de Ipadita y el Dragon Ego en formato PDF.</p>
+            <p align="left" style="font-weight: bold;" class="subtitle_text">Suscríbete y descarga gratis</p>
+            <p align="left" style="font-weight: bold;" class="subtitle_text">el libro Ipad-ita y El Dragón Ego</p>
+            <p align="left" style="font-weight: bold;" class="subtitle_text_grey">Adquiere el libro de Ipadita y el Dragon Ego en formato PDF.</p>
           
             <v-form style="margin-top:25px;">
               <v-text-field color="#982C2C"  label="E-mail" required></v-text-field>
-              <v-btn color="#982C2C" dark large>Suscribete</v-btn>
+              <v-btn color="#982C2C" dark large>Suscríbete</v-btn>
             </v-form>
         
           </v-flex>
@@ -229,7 +228,7 @@
            <v-flex md4>
           </v-flex>
           <v-flex md4>
-            <p align="left" class="title_style_light">Aida Foresti</p>
+            <p align="left" class="title_style_light">Aída Foresti</p>
             <p align="left" class="subtitle_text_light">Autora</p>
             <p align="left" class="regular_text_light">
               Soy un ejemplo de recuperación tanto física como mental, 
@@ -262,7 +261,7 @@
   <section>
     <v-container class="container_suscripcion">
       <v-flex md12 style="height:10vh; width:100vw; padding: 0 0;">
-        <h1 class="title_style_black">- CONTACTOS -</h1>
+        <h1 class="title_style_black">- CONTACTO -</h1>
       </v-flex>
     </v-container>
   </section>
@@ -271,7 +270,7 @@
       <v-container>
         <v-row style="margin-top:80px; margin-bottom:50px;">
           <v-flex md4 style="vertical-align: middle;">
-            <p align="left" style="font-weight: bold;" class="subtitle_text">Aida Foresti</p>
+            <p align="left" style="font-weight: bold;" class="subtitle_text">Aída Foresti</p>
             <p align="left" class="regular_text">
               Radicada en Suecia hace 45 años, nacida en Chile.
               Autora del libro Ipad-ita y el dragón ego. 
@@ -282,9 +281,9 @@
           </v-flex>
           <v-flex md4 style="padding-right:50px;">
           <p style="font-weight: bold;" class="subtitle_text">(llamadas internacionales)</p>
-            <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-phone</v-icon>046 707 65 50 78</p>
+            <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-phone</v-icon>0046 70 765 50 78</p>
             <p style="font-weight: bold;" class="subtitle_text">(llamadas desde Suecia)</p>
-            <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-phone</v-icon>0707 65 50 78</p>
+            <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-phone</v-icon>070 765 50 78</p>
             <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-gmail</v-icon>aidaforesti@gmail.com</p>
             <v-flex style="margin-top:20px;">
               <p style="font-weight: bold;" class="subtitle_text"><v-icon color="#982C2C">mdi-facebook</v-icon><v-icon color="#982C2C">mdi-instagram</v-icon><v-icon color="#982C2C">mdi-twitter</v-icon></p>
@@ -416,6 +415,40 @@ export default {
     text-align: center;
     font-size: 16px;
     color: #726C66;
+  }
+
+  .donaciones_title {
+    text-align: left;
+    font-family: 'Arial black';
+    font-size: 50px;
+    color: #B12827;
+  }
+
+  .donaciones_text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    color:#726C66;
+  }
+
+.donaciones_list {
+    margin-top: 5px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color:#4D5152;
+}
+  .bg_donaciones {
+      width: 100%;
+      display: table;
+      margin: 0;
+      max-width: 100%;
+      background-image: url( '/static/img/donaciones_fondo.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 90vh;
   }
 
   .lecciones_text_link {
